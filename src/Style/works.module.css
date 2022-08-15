@@ -1,0 +1,12 @@
+.bigDiv{
+    background: white;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 3px 1px 37px -22px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 1px 37px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 1px 37px -22px rgba(0,0,0,0.75);
+}
+.imgSnip{
+    width: 51.24vw;
+    margin-bottom: 30px;
+}

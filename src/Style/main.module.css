@@ -1,0 +1,171 @@
+.mainHeading{
+    text-align: center;
+}
+.htmlIcon{
+    display: inline-block;
+   position: absolute;
+    top: 23.44vh;
+    left: 14.64vw;
+    width: 8.35vw;
+    animation-name: widthIncrease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes widthIncrease {
+0%{
+    top: 23.44vh;  
+}
+
+50%{
+    top: 24.74vh; 
+}
+100%{
+    top: 23.44vh; 
+}
+}
+.headingDiv{
+    margin-top: 26.04vh;
+    display: inline-block;
+}
+.heading{
+    font-size: 3.66vw;
+}
+.cssIcon{
+    display: inline-block;
+   position: absolute;
+    top: 18.23vh;
+    right: 21.96vw;
+    width: 6.73vw;
+    animation-name: widthIncreaseCSS;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes widthIncreaseCSS {
+    0%{
+        top: 18.23vh;  
+    }
+    
+    50%{
+        top: 19.53vh; 
+    }
+    100%{
+        top: 18.23vh; 
+    }
+    }
+.extLinkDiv{
+    text-align: center;
+    margin-top: 30PX;
+}
+.bellIcon{
+    display: inline-block;
+   position: absolute;
+    top: 52.08vh;
+    left: 29.28vw;
+    width: 6.73vw;
+    animation-name: widthIncreaseBell;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes widthIncreaseBell {
+    0%{
+        top: 52.08vh;  
+    }
+    
+    50%{
+        top: 53.39vh; 
+    }
+    100%{
+        top: 52.08vh; 
+    }
+    }
+    .devIcon{
+        display: inline-block;
+        position: absolute;
+         top: 62.5vh;
+         right: 29.28vw;
+         width: 6.73vw;
+         animation-name: widthIncreaseDev;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
+         animation-timing-function: ease-in-out;
+    }
+    @keyframes widthIncreaseDev {
+        0%{
+            top: 62.5vh;
+        }
+        
+        50%{
+            top: 63.80vh; 
+        }
+        100%{
+            top: 62.5vh;
+        }
+        }
+        .iAmGladDiv{
+            position: relative;
+            top: 39.06vh;
+            text-align: center;
+        }
+        .iAmGlad{
+            font-size: 2.20vw;
+        }
+        .purpleIam{
+            color: var(--purple);
+            font-weight: 1000;
+            font-size: 2.20vw;
+            margin-bottom: 70px;
+            margin-top: 70px;
+
+        }
+        .purpleIam2{
+            color: var(--purple);
+            font-weight: 1000;
+            font-size: 2.20vw;
+            margin-bottom: 150px;
+            margin-top: 100px;
+
+        }
+        .purpleIam3{
+            color: var(--blue);
+            font-weight: 1000;
+            font-size: 2.20vw;
+            margin-bottom: 100px;
+            margin-top: 150px;
+
+        }
+        .overThree{
+            width: 80%;
+            display: inline-block;
+            margin-top: 50PX;
+            font-size: 1.46vw;
+            line-height: 40px;
+            color: var(--purple);
+            font-weight: bold;
+        }
+        .purpleIam4{
+            color: var(--blue);
+            font-weight: 1000;
+            font-size: 2.20vw;
+            margin-bottom: 50px;
+            margin-top: 150px;
+
+        }
+        .sayHello{
+            font-size: 1.46vw;;
+        }
+        .callIcon{
+            width: 3.95vw;
+            border: 2px solid black;
+            margin: 20px 10px;
+            border-radius: 50%;
+            height: 3.95vw;
+        }
+        .callIcon:hover{
+            padding-top: 10px;
+            transition: all;
+            transition-duration: 1s;
+        }
+      

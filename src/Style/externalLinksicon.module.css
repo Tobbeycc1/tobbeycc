@@ -1,0 +1,15 @@
+.ExtLinkIcon{
+    background: black;
+    width: 4.39vw;
+    height:  4.39vw;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.ExtLinkIcon:hover{
+    background: rgb(100, 98, 98);
+}
+.icon{
+    width: 4.39vw;
+}
