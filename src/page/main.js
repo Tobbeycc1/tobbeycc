@@ -182,7 +182,7 @@ different talentsto create digital products for both business and consumer use.<
                 worksWebIcon ={webIcon}
                 worksGitLink={'https://github.com/Tobbeycc1/soundmac'}
                 worksBeLink = {'https://www.behance.net/gallery/147054179/SoundMac'}
-                worksWebLink = {'soundmac.vercel.app'}/>
+                worksWebLink = {'https://soundmac.vercel.app/'}/>
                 </SplideSlide>
 
                 {/*Tex-z Snip */}
@@ -229,7 +229,7 @@ different talentsto create digital products for both business and consumer use.<
                 worksWebIcon ={webIcon}
                 worksGitLink={'https://github.com/Tobbeycc1/Tobbey-s-Portfolio'}
                 worksBeLink = {'https://www.behance.net/tobbeyjayjay'}
-                worksWebLink = {'https://tex-z.netlify.app/'}/>
+                worksWebLink = {'https://tobbey.netlify.app/'}/>
                 </SplideSlide>
              
             </Splide>
