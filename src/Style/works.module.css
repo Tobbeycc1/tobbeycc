@@ -10,3 +10,12 @@
     width: 51.24vw;
     margin-bottom: 30px;
 }
+@media screen and (max-width: 999px) {
+
+}
+@media screen and (max-width: 540px) {
+    .bigDiv{
+        padding: 10px;
+    
+    }
+}

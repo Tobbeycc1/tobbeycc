@@ -47,3 +47,26 @@
     margin: 20px 0px;
     line-height: 50px;
 }
+@media screen and (max-width: 999px) {
+    .title{
+        font-size: 25px;
+        margin: 50px 0px 0px 0px;
+    }
+    .iValue, .iValue2, .tools{
+        font-size: 15px;
+       
+    }
+    
+}
+@media screen and (max-width: 540px) {
+    .title{
+        font-size: 6.04vw;
+        margin: 50px 0px 0px 0px;
+        
+    }
+    .iValue, .iValue2, .tools{
+        font-size: 3.62vw;
+        width: 70vw;
+       
+    }
+}

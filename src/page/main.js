@@ -26,6 +26,8 @@ import twitterIcon from '../images/twitterIcon.png'
 import igIcon from '../images/igLogo.png'
 import mailIcon from '../images/mailIcon.png'
 import feIcon from '../images/front end dev icon.png'
+import { useEffect, useState } from 'react'
+import gifTobbey from '../images/tobbey.gif'
 
 
 // ..
@@ -35,9 +37,21 @@ AOS.init();
 
 
 function Main(props) {
+    const [test, setTest]= useState( <div className={classes.gifTobbeyDiv}>
+        <img src={gifTobbey} alt='gifTobbey' className={classes.gifTobbey}/>
+    </div>)
+
+    setTimeout(function () {
+        setTest(' ')
+        console.log('I will run after 2 seconds');
+    }, 6000);
+    
+
+   
     return(
 
-    <div className={classes.mainDiv}>
+    <div className={classes.mainDiv} >
+    {test}
         <div className={classes.mainHeading}>
             <img src={htmlIcon} className={classes.htmlIcon} alt='html Icon'/>
 
@@ -98,7 +112,7 @@ function Main(props) {
             data-aos-duration="1000"
             data-aos-easing="ease-in-out">I am <span className={classes.purpleIam}>Tobbey C. Chime</span> </h2>
 
-<h2 className={classes.purpleIam} data-aos="fade-down" data-aos-delay="100"
+<h2 className={classes.purpleIamB} data-aos="fade-down" data-aos-delay="100"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out">Do you want to know more asides my name? Here You Go ↓</h2>
     
@@ -156,6 +170,7 @@ different talentsto create digital products for both business and consumer use.<
                 rewind: true,
                 type   : 'loop',
                 padding: '20%',
+                gap:'20px'
               } }
             >
                 {/* SoundMac snip */}
