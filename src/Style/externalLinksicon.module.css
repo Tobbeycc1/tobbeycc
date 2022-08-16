@@ -23,3 +23,13 @@
         width: 60px;
     }
 }
+@media screen and (max-width: 540px) {
+    .ExtLinkIcon{
+        width: 14.49vw;
+        height:  14.49vw;
+        margin: 10px 10px;
+    }
+    .icon{
+        width: 14.49vw;
+    }
+}

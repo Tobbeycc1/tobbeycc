@@ -245,6 +245,9 @@ position: relative;
             } 
          }
          @media screen and (max-width: 540px) {
+            .heading{
+                font-size: 12.01vw;
+            }
             .htmlIcon, .cssIcon, .bellIcon{
                 display: none;
             }
