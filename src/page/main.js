@@ -118,7 +118,7 @@ function Main(props) {
     
     <p className={classes.overThree} data-aos="fade-down" data-aos-delay="150"
             data-aos-duration="1000"
-            data-aos-easing="ease-in-out">Over Three (3) years and counting since beginning my journey as a UI designer, Web Developer and
+            data-aos-easing="ease-in-out">Over six (6) years and counting since beginning my journey as a UI designer, Web Developer and
 this field at large, constantly revolving around my essential cross-browser compatibility design and image 
 optimization skills. I've done remote work for organizations, consulted for startups, and collaborated with 
 different talentsto create digital products for both business and consumer use.</p>
