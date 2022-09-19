@@ -87,7 +87,7 @@ function Main(props) {
 
                 {/* Resume */}
                 <ExtLinkIcon 
-                link={"https://drive.google.com/file/d/1qL6xrKk7qWPEw0KZ6OGNOUnxx3KeATrd/view?usp=sharing"}
+                link={"https://drive.google.com/file/d/1b-geHQnhuggEW2AK_822FOG6-clacoO2/view?usp=sharing"}
                 icon = {cvIcon}
                 />
 
