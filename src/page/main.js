@@ -409,7 +409,7 @@ function Main(props) {
             <img src={igIcon} alt="igIcon" className={classes.callIcon} />
           </a>
           <a
-            href="mailto: jayjaytobbey@gmail.com"
+            href="mailto: chimetobbey@gmail.com"
             className={classes.callIconLink}
             target="_blank"
             rel="noreferrer"
