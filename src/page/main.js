@@ -235,7 +235,7 @@ function Main(props) {
               worksWebLink={"https://soundmac.vercel.app/"}
               heading={"SOUNDMAC"}
               techStack={
-                "Tech Stack: HTML, CSS, JS, React, Axios, Context Api, Fluterwave, Node.Js"
+                "Tech Stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js"
               }
               description={
                 "SoundMac is an online application for music marketing that aids artists in promoting their work and content, tracks their development, and reports daily stream."
