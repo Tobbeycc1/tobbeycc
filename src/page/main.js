@@ -26,7 +26,7 @@ import twitterIcon from "../images/twitterIcon.png";
 import igIcon from "../images/igLogo.png";
 import mailIcon from "../images/mailIcon.png";
 import feIcon from "../images/front end dev icon.png";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import gifTobbey from "../images/tobbey.gif";
 import movieSnip from "../images/tobbey movie app snip.png";
 import imageAPP from "../images/IMAGE DOWNLOADER.png";
@@ -36,7 +36,7 @@ import greetingsSnip from "../images/greetings app snip.png";
 
 AOS.init();
 
-function Main(props) {
+function Main() {
   const [test, setTest] = useState(
     <div className={classes.gifTobbeyDiv}>
       <img src={gifTobbey} alt="gifTobbey" className={classes.gifTobbey} />
@@ -45,7 +45,7 @@ function Main(props) {
 
   setTimeout(function () {
     setTest(" ");
-    console.log("I will run after 2 seconds");
+    // console.log("I will run after 2 seconds");
   }, 6000);
 
   return (
