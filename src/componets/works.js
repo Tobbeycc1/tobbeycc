@@ -28,6 +28,12 @@ function Works(props) {
         link={props.worksWebLink}
         icon={props.worksWebIcon}
       />
+      <p
+        className={classes.heading}
+        style={{ color: "red", textAlign: "center" }}
+      >
+        {props.availability}
+      </p>
 
       <h2 className={classes.heading}>{props.heading}</h2>
       <h3 className={classes.heading2}>{props.techStack}</h3>

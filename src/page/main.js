@@ -30,6 +30,7 @@ import { useState } from "react";
 import gifTobbey from "../images/tobbey.gif";
 import movieSnip from "../images/tobbey movie app snip.png";
 import imageAPP from "../images/IMAGE DOWNLOADER.png";
+import ekoSnip from "../images/eko_snip.png";
 import greetingsSnip from "../images/greetings app snip.png";
 
 // ..
@@ -223,6 +224,28 @@ function Main() {
             pagination: false,
           }}
         >
+          {/* eko hotel snip */}
+          <SplideSlide>
+            <Works
+              imgSnip={ekoSnip}
+              worksIcon={gitIcon}
+              worksBeIcon={beIcon}
+              availability={
+                "Git and Web Links are only available on request due to privacy "
+              }
+              worksWebIcon={webIcon}
+              worksGitLink={""}
+              worksWebLink={""}
+              heading={"Eko Hotels"}
+              techStack={
+                "Full-stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, render, nodemailer Node.Js"
+              }
+              description={
+                "Eko hotel ticket system is an admin dashboard web app that generates tickets for customers, the app also has a section to scan valid tickets on the day of the show, all other amazing features were done on the app"
+              }
+            />
+          </SplideSlide>
+
           {/* SoundMac snip */}
           <SplideSlide>
             <Works
@@ -235,7 +258,7 @@ function Main() {
               worksWebLink={"https://soundmac.vercel.app/"}
               heading={"SOUNDMAC"}
               techStack={
-                "Tech Stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js"
+                "Full-stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js"
               }
               description={
                 "SoundMac is an online application for music marketing that aids artists in promoting their work and content, tracks their development, and reports daily stream."
