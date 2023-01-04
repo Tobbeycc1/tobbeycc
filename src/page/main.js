@@ -91,7 +91,7 @@ function Main() {
             {/* Resume */}
             <ExtLinkIcon
               link={
-                "https://drive.google.com/file/d/1b-geHQnhuggEW2AK_822FOG6-clacoO2/view?usp=sharing"
+                "https://docs.google.com/document/d/1hwNyr40FoN3bGGxDf0Nykpd7O0x-MrKwMqECJN4Xu_8/edit?usp=share_link"
               }
               icon={cvIcon}
             />
