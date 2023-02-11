@@ -91,7 +91,7 @@ function Main() {
             {/* Resume */}
             <ExtLinkIcon
               link={
-                "https://docs.google.com/document/d/1hwNyr40FoN3bGGxDf0Nykpd7O0x-MrKwMqECJN4Xu_8/edit?usp=share_link"
+                "https://docs.google.com/document/d/1ccoTq7nKmXb4FiapZqHssdyrbTNHdn0r/edit?usp=sharing&ouid=102225848585073195592&rtpof=true&sd=true"
               }
               icon={cvIcon}
             />
@@ -253,12 +253,12 @@ function Main() {
               worksIcon={gitIcon}
               worksBeIcon={beIcon}
               worksWebIcon={webIcon}
-              worksGitLink={"https://github.com/Tobbeycc1/soundmac"}
+              worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
               worksBeLink={"https://www.behance.net/gallery/147054179/SoundMac"}
-              worksWebLink={"https://soundmac.vercel.app/"}
+              worksWebLink={"https://www.soundmac.co/"}
               heading={"SOUNDMAC"}
               techStack={
-                "Full-stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js"
+                "Full-stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js, Express.js"
               }
               description={
                 "SoundMac is an online application for music marketing that aids artists in promoting their work and content, tracks their development, and reports daily stream."
