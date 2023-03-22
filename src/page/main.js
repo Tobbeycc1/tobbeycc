@@ -144,12 +144,13 @@ function Main() {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          My career as a user interface (UI) designer, web developer, and in
-          this sector generally has centered around my critical cross-browser
-          compatibility design and image optimization talents for  years .  I've
-          worked remotely for organizations, provided startup consulting, and
-          worked with various talent to develop digital solutions for both
-          commercial and consumer use.
+          A motivated and skilled front-end developer with a track record of
+          over three years in the field. I am dedicated to meeting project
+          deadlines and am always open to embracing new challenges and
+          opportunities. I am particularly drawn to positions that emphasize the
+          use of best practices and offer diverse project exposure. I have a
+          proven track record of leading teams to deliver projects on time, and
+          my expertise in mobile application development.
         </p>
 
         <p
@@ -159,16 +160,12 @@ function Main() {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          Through the use of my capacity to learn and develop, as well as my
-          interpersonal awareness skills, over the past few years, I have
-          strengthened my communication skills and built a reputation as a
-          significant contributor. As a team player, I work cooperatively with
-          colleagues to find methods to incorporate useful insights. With these
-          traits, I am passionate about learning and growth, have faith in my
-          abilities to promote positive change and group effort, want to utilize
-          my skills on a larger development team, and am motivated to take on
-          more challenging issues in order to continue maximizing user
-          efficiency.
+          My current residence is in Lagos, Nigeria, and am open to compensation
+          arrangements that align with my skills and experience. Additionally, I
+          possess excellent communication skills, solid understanding of
+          technical standards, a strong sense of culture, and a flexible
+          approach to work. My focus on delivering exceptional customer
+          experience makes me an asset to any team.
         </p>
 
         <h2
@@ -187,7 +184,7 @@ function Main() {
         <PTTerms
           bgColor={"var(--purple)"}
           spIcon={spIcon}
-          title={"UI DESIGNER"}
+          title={"DESIGNER"}
           subTitle={
             "I value simple content structure, clean design patterns and thoughtful interactions."
           }
@@ -197,10 +194,8 @@ function Main() {
         <PTTerms
           bgColor={"var(--blue)"}
           spIcon={feIcon}
-          title={"FRONT END DEV."}
-          subTitle={
-            "I like to code and  enjoy bringing ideas to life in the browser"
-          }
+          title={"SOFTWARE DEV."}
+          subTitle={"I like to code and  enjoy bringing ideas to life"}
         />
         <div className={classes.tools_con}>
           <h1 className={classes.tools}>TOOLS</h1>
@@ -208,7 +203,7 @@ function Main() {
 
         <p className={classes.overThree}>
           {" "}
-          "HTML/HTML5, CSS/CSS3, Bootstrap 4, SASS, LESS, JavaScript,
+          HTML/HTML5, CSS/CSS3, Bootstrap 4, Tailwind, SASS, LESS, JavaScript,
           TypeScript, React, NextJs, Angular 1.x, 2.0, 5.0, NodeJS, jQuery,
           AJAX, JSON, APIs, Redux-saga, React Hooks, ImmutableJS, GitLab,
           GitHub, Bitbucket, Google Analytics, Istanbul, Mixpanel, JIRA,
@@ -216,7 +211,7 @@ function Main() {
           Protractor, Webpack, NPM, Gulp, Grunt, Gradle, Maven, Docker, AWS
           Cloud, Platform, MongoDB, Cassandra, GraphQL, Jenkins CI/CD tool,
           Sitebulb Website Analyzer, AdobeXD, Figma, CorelDraw, Adobe Photoshop,
-          Adobe Illustrator, MsPower BI, Ms Excel"
+          Adobe Illustrator, MsPower BI, Ms Excel.
         </p>
 
         {/* My Recent Project */}

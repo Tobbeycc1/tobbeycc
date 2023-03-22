@@ -207,7 +207,7 @@
   color: white;
   background: var(--purple);
   margin: 20px 0px;
-  display: flex;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 999px) {
