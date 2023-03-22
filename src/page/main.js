@@ -32,6 +32,9 @@ import movieSnip from "../images/tobbey movie app snip.png";
 import imageAPP from "../images/IMAGE DOWNLOADER.png";
 import ekoSnip from "../images/eko_snip.png";
 import greetingsSnip from "../images/greetings app snip.png";
+import eko from "../images/mobile (9) (1).png";
+import soundmacAdmin from "../images/mobile (8) (1).png";
+import soundmac from "../images/mobile (7) (1).png";
 
 // ..
 
@@ -91,7 +94,7 @@ function Main() {
             {/* Resume */}
             <ExtLinkIcon
               link={
-                "https://docs.google.com/document/d/1ccoTq7nKmXb4FiapZqHssdyrbTNHdn0r/edit?usp=sharing&ouid=102225848585073195592&rtpof=true&sd=true"
+                "https://drive.google.com/file/d/1QVJsrg75YXAmSkhdK2nDxrM2TjdRzdiH/view?usp=share_link"
               }
               icon={cvIcon}
             />
@@ -185,11 +188,9 @@ function Main() {
           bgColor={"var(--purple)"}
           spIcon={spIcon}
           title={"UI DESIGNER"}
-          tools={"TOOLS"}
           subTitle={
             "I value simple content structure, clean design patterns and thoughtful interactions."
           }
-          toolsText={"Figma, Adobe XD, CorelDraw, Adobe PhotoShop, Sketch"}
         />
 
         {/* For Developer */}
@@ -197,12 +198,26 @@ function Main() {
           bgColor={"var(--blue)"}
           spIcon={feIcon}
           title={"FRONT END DEV."}
-          tools={"TOOLS"}
           subTitle={
             "I like to code and  enjoy bringing ideas to life in the browser"
           }
-          toolsText={"HTML, CSS, JS, React.Js, Tailwind, Node.js Git"}
         />
+        <div className={classes.tools_con}>
+          <h1 className={classes.tools}>TOOLS</h1>
+        </div>
+
+        <p className={classes.overThree}>
+          {" "}
+          "HTML/HTML5, CSS/CSS3, Bootstrap 4, SASS, LESS, JavaScript,
+          TypeScript, React, NextJs, Angular 1.x, 2.0, 5.0, NodeJS, jQuery,
+          AJAX, JSON, APIs, Redux-saga, React Hooks, ImmutableJS, GitLab,
+          GitHub, Bitbucket, Google Analytics, Istanbul, Mixpanel, JIRA,
+          Confluence, Agile Methodologies, Mocha, Jest, Enzyme, Selenium,
+          Protractor, Webpack, NPM, Gulp, Grunt, Gradle, Maven, Docker, AWS
+          Cloud, Platform, MongoDB, Cassandra, GraphQL, Jenkins CI/CD tool,
+          Sitebulb Website Analyzer, AdobeXD, Figma, CorelDraw, Adobe Photoshop,
+          Adobe Illustrator, MsPower BI, Ms Excel"
+        </p>
 
         {/* My Recent Project */}
         <h2
@@ -227,7 +242,7 @@ function Main() {
           {/* eko hotel snip */}
           <SplideSlide>
             <Works
-              imgSnip={ekoSnip}
+              imgSnip={eko}
               worksIcon={gitIcon}
               worksBeIcon={beIcon}
               availability={
@@ -236,7 +251,7 @@ function Main() {
               worksWebIcon={webIcon}
               worksGitLink={""}
               worksWebLink={""}
-              heading={"Eko Hotels"}
+              heading={"Eko Hotels (exclusive)"}
               techStack={
                 "Full-stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, render, nodemailer Node.Js"
               }
@@ -246,11 +261,37 @@ function Main() {
             />
           </SplideSlide>
 
+          {/* SoundMac admin snip */}
+          <SplideSlide>
+            <Works
+              imgSnip={soundmacAdmin}
+              worksIcon={gitIcon}
+              worksBeIcon={beIcon}
+              availability={
+                "Git and Web Links are only available on request due to privacy "
+              }
+              worksWebIcon={webIcon}
+              worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
+              worksBeLink={"https://www.behance.net/gallery/147054179/SoundMac"}
+              worksWebLink={"#"}
+              heading={"SOUNDMAC ADMIN DASHBOARD (exclusive)"}
+              techStack={
+                "Full-stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, Heroku, Node.Js, Express.js"
+              }
+              description={
+                "I created an admin dashboard with a music player and song approval/rejection functionality. The dashboard enables admins to play and review songs submitted for approval, and provide reasons for their decisions. "
+              }
+            />
+          </SplideSlide>
+
           {/* SoundMac snip */}
           <SplideSlide>
             <Works
-              imgSnip={imgSnip}
+              imgSnip={soundmac}
               worksIcon={gitIcon}
+              availability={
+                "Git Links are only available on request due to privacy "
+              }
               worksBeIcon={beIcon}
               worksWebIcon={webIcon}
               worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
@@ -258,10 +299,10 @@ function Main() {
               worksWebLink={"https://www.soundmac.co/"}
               heading={"SOUNDMAC"}
               techStack={
-                "Full-stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js, Express.js"
+                "Full-stack: HTML, CSS, JS, React, AxiosInstance, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js, Express.js"
               }
               description={
-                "SoundMac is an online application for music marketing that aids artists in promoting their work and content, tracks their development, and reports daily stream."
+                "I built a full-scale web app that allows users to log in and upload songs for distribution. The app includes four different account types, each with unique functionalities, and uses Paystack as the payment gateway. This project simplifies music distribution and provides a seamless experience for both musicians and consumers.."
               }
             />
           </SplideSlide>
@@ -355,38 +396,6 @@ function Main() {
               description={
                 "A very captivating Single Page Application (React-like) Portfolio wbsite built with vanillas javascript"
               }
-            />
-          </SplideSlide>
-
-          {/* Abby's place */}
-          <SplideSlide>
-            <Works
-              imgSnip={abbySnip}
-              worksIcon={gitIcon}
-              worksBeIcon={beIcon}
-              worksWebIcon={webIcon}
-              worksGitLink={"https://github.com/Tobbeycc1/Abbys-place-website"}
-              worksBeLink={"https://www.behance.net/tobbeyjayjay"}
-              worksWebLink={"https://abbysplace.netlify.app/"}
-              heading={"ABBY'S PLACE"}
-              techStack={"Tech Stack: HTML, CSS, JS"}
-              description={"A simple website."}
-            />
-          </SplideSlide>
-
-          {/* OLD TEXz Snip */}
-          <SplideSlide>
-            <Works
-              imgSnip={oldTexzsnip}
-              worksIcon={gitIcon}
-              worksBeIcon={beIcon}
-              worksWebIcon={webIcon}
-              worksGitLink={"https://github.com/Tobbeycc1/New-texz"}
-              worksBeLink={"https://www.behance.net/tobbeyjayjay"}
-              worksWebLink={"https://tex-z.netlify.app/"}
-              heading={"OLD TEX-Z INC"}
-              techStack={"Tech Stack: HTML, CSS, JS"}
-              description={"A Simple website."}
             />
           </SplideSlide>
         </Splide>

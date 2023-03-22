@@ -1,296 +1,316 @@
-.mainHeading{
-    text-align: center;
+.mainHeading {
+  text-align: center;
 }
-.htmlIcon{
-    display: inline-block;
-   position: absolute;
-    top: 23.44vh;
-    left: 14.64vw;
-    width: 8.35vw;
-    animation-name: widthIncrease;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+.htmlIcon {
+  display: inline-block;
+  position: absolute;
+  top: 23.44vh;
+  left: 14.64vw;
+  width: 8.35vw;
+  animation-name: widthIncrease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 @keyframes widthIncrease {
-0%{
-    top: 23.44vh;  
-}
+  0% {
+    top: 23.44vh;
+  }
 
-50%{
-    top: 24.74vh; 
+  50% {
+    top: 24.74vh;
+  }
+  100% {
+    top: 23.44vh;
+  }
 }
-100%{
-    top: 23.44vh; 
+.headingDiv {
+  margin-top: 26.04vh;
+  display: inline-block;
 }
+.heading {
+  font-size: 3.66vw;
 }
-.headingDiv{
-    margin-top: 26.04vh;
-    display: inline-block;
-}
-.heading{
-    font-size: 3.66vw;
-}
-.cssIcon{
-    display: inline-block;
-   position: absolute;
-    top: 18.23vh;
-    right: 21.96vw;
-    width: 6.73vw;
-    animation-name: widthIncreaseCSS;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+.cssIcon {
+  display: inline-block;
+  position: absolute;
+  top: 18.23vh;
+  right: 21.96vw;
+  width: 6.73vw;
+  animation-name: widthIncreaseCSS;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 @keyframes widthIncreaseCSS {
-    0%{
-        top: 18.23vh;  
-    }
-    
-    50%{
-        top: 19.53vh; 
-    }
-    100%{
-        top: 18.23vh; 
-    }
-    }
-.extLinkDiv{
-    text-align: center;
-    margin-top: 30PX;
+  0% {
+    top: 18.23vh;
+  }
+
+  50% {
+    top: 19.53vh;
+  }
+  100% {
+    top: 18.23vh;
+  }
 }
-.bellIcon{
-    display: inline-block;
-   position: absolute;
+.extLinkDiv {
+  text-align: center;
+  margin-top: 30px;
+}
+.bellIcon {
+  display: inline-block;
+  position: absolute;
+  top: 52.08vh;
+  left: 29.28vw;
+  width: 6.73vw;
+  animation-name: widthIncreaseBell;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes widthIncreaseBell {
+  0% {
     top: 52.08vh;
-    left: 29.28vw;
-    width: 6.73vw;
-    animation-name: widthIncreaseBell;
+  }
+
+  50% {
+    top: 53.39vh;
+  }
+  100% {
+    top: 52.08vh;
+  }
+}
+.devIcon {
+  display: inline-block;
+  position: absolute;
+  top: 62.5vh;
+  right: 29.28vw;
+  width: 6.73vw;
+  animation-name: widthIncreaseBell;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes widthIncreaseDev {
+  0% {
+    top: 62.5vh;
+  }
+
+  50% {
+    top: 63.8vh;
+  }
+  100% {
+    top: 62.5vh;
+  }
+}
+.iAmGladDiv {
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+.iAmGlad {
+  font-size: 2.2vw;
+  padding: 0px 50px;
+}
+.purpleIam {
+  color: var(--purple);
+  font-weight: 1000;
+  font-size: 2.2vw;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+.purpleIamB {
+  color: var(--purple);
+  font-weight: 1000;
+  font-size: 2.2vw;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  padding: 0px 50px;
+}
+.purpleIam2 {
+  color: var(--purple);
+  font-weight: 1000;
+  font-size: 2.2vw;
+  margin-bottom: 150px;
+  margin-top: 100px;
+  padding: 0px 50px;
+}
+.purpleIam3 {
+  color: var(--blue);
+  font-weight: 1000;
+  font-size: 2.2vw;
+  margin-bottom: 100px;
+  margin-top: 150px;
+  padding: 0px 50px;
+}
+.overThree {
+  width: 80%;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 1.46vw;
+  line-height: 40px;
+  color: var(--purple);
+  font-weight: bold;
+  padding: 0px 50px;
+}
+.purpleIam4 {
+  color: var(--blue);
+  font-weight: 1000;
+  font-size: 2.2vw;
+  margin-bottom: 50px;
+  margin-top: 150px;
+  padding: 0px 50px;
+}
+.sayHello {
+  font-size: 1.46vw;
+}
+.callIcon {
+  width: 3.95vw;
+  border: 2px solid black;
+  margin: 20px 10px;
+  border-radius: 50%;
+  height: 3.95vw;
+}
+.callIcon:hover {
+  padding-top: 10px;
+  transition: all;
+  transition-duration: 1s;
+}
+.gifTobbey {
+  position: relative;
+  width: 90vw;
+}
+.gifTobbeyDiv {
+  position: fixed;
+  background: rgb(126, 22, 22);
+  background: #fcfcff;
+  text-align: center;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tools_con {
+  display: flex;
+  justify-content: center;
+}
+.tools {
+  width: fit-content;
+  display: block;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 1.464vw;
+  color: white;
+  background: var(--purple);
+  margin: 20px 0px;
+  display: flex;
+}
+
+@media screen and (max-width: 999px) {
+  .heading {
+    font-size: 50px;
+  }
+  .htmlIcon {
+    width: 70.92px;
+  }
+  .cssIcon {
+    width: 70.92px;
+  }
+  .bellIcon {
+    width: 70.92px;
+  }
+  .devIcon {
+    width: 70.92px;
+  }
+  .iAmGlad,
+  .purpleIam,
+  .purpleIamB,
+  .purpleIam2,
+  .purpleIam3,
+  .purpleIam4 {
+    font-size: 30px;
+  }
+  .purpleIam2 {
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+  .overThree {
+    font-size: 15px;
+    width: 100%;
+  }
+  .sayHello {
+    font-size: 15px;
+  }
+  .callIcon {
+    width: 54px;
+    height: 54px;
+  }
+  .tools {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .heading {
+    font-size: 12.01vw;
+  }
+  .htmlIcon,
+  .cssIcon,
+  .bellIcon {
+    display: none;
+  }
+
+  .devIcon {
+    width: 70.92px;
+    top: 80vh;
+    animation-name: animationdev;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+  }
+  @keyframes animationdev {
+    0% {
+      top: 75vh;
+    }
+
+    50% {
+      top: 78vh;
+    }
+    100% {
+      top: 75vh;
+    }
+  }
+
+  .iAmGlad,
+  .purpleIam,
+  .purpleIamB,
+  .purpleIam2,
+  .purpleIam3,
+  .purpleIam4 {
+    font-size: 6.04vw;
+  }
+  .iAmGlad {
+    margin-bottom: 30px;
+  }
+
+  .overThree {
+    font-size: 3.62vw;
+    margin: 20px 0px;
+  }
+  .sayHello {
+    font-size: 3.62vw;
+  }
+  .callIcon {
+    width: 13.04vw;
+    height: 13.04vw;
+  }
+  .tools {
+    font-size: 3.62vw;
+    width: 70vw;
+    margin-top: 0px;
+  }
 }
-@keyframes widthIncreaseBell {
-    0%{
-        top: 52.08vh;  
-    }
-    
-    50%{
-        top: 53.39vh; 
-    }
-    100%{
-        top: 52.08vh; 
-    }
-    }
-    .devIcon{
-        display: inline-block;
-        position: absolute;
-         top: 62.5vh;
-         right: 29.28vw;
-         width: 6.73vw;
-         animation-name: widthIncreaseBell;
-         animation-duration: 2s;
-         animation-iteration-count: infinite;
-         animation-timing-function: ease-in-out;
-    }
-    @keyframes widthIncreaseDev {
-        0%{
-            top: 62.5vh;
-        }
-        
-        50%{
-            top: 63.80vh; 
-        }
-        100%{
-            top: 62.5vh;
-        }
-        }
-        .iAmGladDiv{
-            position: relative;
-            top: 300px;
-            text-align: center;
-        }
-        .iAmGlad{
-            font-size: 2.20vw;
-            padding: 0px 50px;
-
-        }
-        .purpleIam{
-            color: var(--purple);
-            font-weight: 1000;
-            font-size: 2.20vw;
-            margin-bottom: 70px;
-            margin-top: 70px;
-
-        }
-        .purpleIamB{
-            color: var(--purple);
-            font-weight: 1000;
-            font-size: 2.20vw;
-            margin-bottom: 70px;
-            margin-top: 70px;
-            padding: 0px 50px;
-
-
-
-        }
-        .purpleIam2{
-            color: var(--purple);
-            font-weight: 1000;
-            font-size: 2.20vw;
-            margin-bottom: 150px;
-            margin-top: 100px;
-            padding: 0px 50px;
-
-
-        }
-        .purpleIam3{
-            color: var(--blue);
-            font-weight: 1000;
-            font-size: 2.20vw;
-            margin-bottom: 100px;
-            margin-top: 150px;
-            padding: 0px 50px;
-
-
-        }
-        .overThree{
-            width: 80%;
-            display: inline-block;
-            margin-top: 50PX;
-            font-size: 1.46vw;
-            line-height: 40px;
-            color: var(--purple);
-            font-weight: bold;
-            padding: 0px 50px;
-
-        }
-        .purpleIam4{
-            color: var(--blue);
-            font-weight: 1000;
-            font-size: 2.20vw;
-            margin-bottom: 50px;
-            margin-top: 150px;
-            padding: 0px 50px;
-
-
-        }
-        .sayHello{
-            font-size: 1.46vw;;
-        }
-        .callIcon{
-            width: 3.95vw;
-            border: 2px solid black;
-            margin: 20px 10px;
-            border-radius: 50%;
-            height: 3.95vw;
-        }
-        .callIcon:hover{
-            padding-top: 10px;
-            transition: all;
-            transition-duration: 1s;
-        }
-        .gifTobbey{
-position: relative;
-            width: 90vw;
-        }
-        .gifTobbeyDiv{
-            position: fixed;
-            background: rgb(126, 22, 22);
-            background: #FCFCFF;
-            text-align: center;
-            z-index: 1000;
-            width: 100%;
-            height: 100%;
-            overflow-y: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-        }
-         @media screen and (max-width: 999px) {
-            .heading{
-                font-size: 50px;
-            }
-            .htmlIcon{
-                width: 70.92px; 
-            }
-            .cssIcon{
-                width: 70.92px;
-            }
-            .bellIcon{
-                width: 70.92px; 
-            }
-            .devIcon{
-                width: 70.92px; 
-            }
-            .iAmGlad, .purpleIam, .purpleIamB, .purpleIam2, .purpleIam3, .purpleIam4 {
-                font-size: 30px;
-                
-            }
-            .purpleIam2{
-            margin-bottom: 80px;
-            margin-top: 80px;
-            }
-            .overThree{
-                font-size: 15px;
-                width: 100%;
-                
-            }
-            .sayHello{
-                font-size: 15px;
-            } 
-            .callIcon{
-                width:  54px;
-                height: 54px;
-            } 
-         }
-         @media screen and (max-width: 540px) {
-            .heading{
-                font-size: 12.01vw;
-            }
-            .htmlIcon, .cssIcon, .bellIcon{
-                display: none;
-            }
-           
-            .devIcon{
-                width: 70.92px;
-                top: 80vh; 
-                animation-name: animationdev;
-                animation-duration: 2s;
-                animation-iteration-count: infinite;
-                animation-timing-function: ease-in-out;
-            }
-            @keyframes animationdev {
-                0%{
-                    top: 75vh;  
-                }
-                
-                50%{
-                    top: 78vh; 
-                }
-                100%{
-                    top: 75vh; 
-                }
-                }
-
-                .iAmGlad, .purpleIam, .purpleIamB, .purpleIam2, .purpleIam3, .purpleIam4{
-                    font-size: 6.04vw;
-                }
-                .iAmGlad{
-                    margin-bottom: 30px;
-                }
-                            
-                .overThree{
-                    font-size: 3.62vw;
-                    margin: 20px 0px;
-                }
-                .sayHello{
-                    font-size: 3.62vw;
-                }
-                .callIcon{
-                    width:  13.04vw;
-                    height: 13.04vw;
-                } 
-            
-               
-         }
