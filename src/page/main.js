@@ -115,104 +115,8 @@ function Main() {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          I am Glad you are here and its my pleasure to meet you
+          I am <span className={classes.purpleIam}>Tobbey Celestine Chime</span>{" "}
         </h2>
-        <h2
-          className={classes.iAmGlad}
-          data-aos="fade-down"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-        >
-          I am <span className={classes.purpleIam}>Tobbey C. Chime</span>{" "}
-        </h2>
-
-        <h2
-          className={classes.purpleIamB}
-          data-aos="fade-down"
-          data-aos-delay="100"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-        >
-          Do you want to know more asides my name? Here You Go ↓
-        </h2>
-
-        <p
-          className={classes.overThree}
-          data-aos="fade-down"
-          data-aos-delay="150"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-        >
-          A motivated and skilled front-end developer with a track record of
-          over three years in the field. I am dedicated to meeting project
-          deadlines and am always open to embracing new challenges and
-          opportunities. I am particularly drawn to positions that emphasize the
-          use of best practices and offer diverse project exposure. I have a
-          proven track record of leading teams to deliver projects on time, and
-          my expertise in mobile application development.
-        </p>
-
-        <p
-          className={classes.overThree}
-          data-aos="fade-down"
-          data-aos-delay="150"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-        >
-          My current residence is in Lagos, Nigeria, and am open to compensation
-          arrangements that align with my skills and experience. Additionally, I
-          possess excellent communication skills, solid understanding of
-          technical standards, a strong sense of culture, and a flexible
-          approach to work. My focus on delivering exceptional customer
-          experience makes me an asset to any team.
-        </p>
-
-        <h2
-          className={classes.purpleIam2}
-          data-aos="fade-down"
-          data-aos-delay="100"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-        >
-          HERE IS TOBBEY IN PROFESSIONAL TERMS ↓
-        </h2>
-
-        {/* professional terms */}
-
-        {/* For Designer */}
-        <PTTerms
-          bgColor={"var(--purple)"}
-          spIcon={spIcon}
-          title={"DESIGNER"}
-          subTitle={
-            "I value simple content structure, clean design patterns and thoughtful interactions."
-          }
-        />
-
-        {/* For Developer */}
-        <PTTerms
-          bgColor={"var(--blue)"}
-          spIcon={feIcon}
-          title={"SOFTWARE DEV."}
-          subTitle={"I like to code and  enjoy bringing ideas to life"}
-        />
-        <div className={classes.tools_con}>
-          <h1 className={classes.tools}>TOOLS</h1>
-        </div>
-
-        <p className={classes.overThree}>
-          {" "}
-          HTML/HTML5, CSS/CSS3, Bootstrap 4, Tailwind, SASS, LESS, JavaScript,
-          TypeScript, React, NextJs, Angular 1.x, 2.0, 5.0, NodeJS, jQuery,
-          AJAX, JSON, APIs, Redux-saga, React Hooks, ImmutableJS, GitLab,
-          GitHub, Bitbucket, Google Analytics, Istanbul, Mixpanel, JIRA,
-          Confluence, Agile Methodologies, Mocha, Jest, Enzyme, Selenium,
-          Protractor, Webpack, NPM, Gulp, Grunt, Gradle, Maven, Docker, AWS
-          Cloud, Platform, MongoDB, Cassandra, GraphQL, Jenkins CI/CD tool,
-          Sitebulb Website Analyzer, AdobeXD, Figma, CorelDraw, Adobe Photoshop,
-          Adobe Illustrator, MsPower BI, Ms Excel.
-        </p>
 
         {/* My Recent Project */}
         <h2
@@ -234,71 +138,140 @@ function Main() {
             pagination: false,
           }}
         >
-          {/* eko hotel snip */}
+          {/* audio converter */}
           <SplideSlide>
             <Works
-              imgSnip={eko}
+              imgSnip={"https://sconchun.sirv.com/mobile%20(12).png"}
               worksIcon={gitIcon}
               worksBeIcon={beIcon}
-              availability={
-                "Git and Web Links are only available on request due to privacy "
-              }
               worksWebIcon={webIcon}
-              worksGitLink={""}
-              worksWebLink={""}
-              heading={"Eko Hotels (exclusive)"}
-              techStack={
-                "Full-stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, render, nodemailer Node.Js"
-              }
+              worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
+              worksBeLink={"https://www.behance.net/gallery/147054179/SoundMac"}
+              worksWebLink={"https://www.soundmac.co/convert-audio"}
+              heading={"SUPER AUDIO CONVERTER"}
+              // techStack={
+              //   "Full-stack: HTML, CSS, JS, React, AxiosInstance, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js, Express.js"
+              // }
               description={
-                "Eko hotel ticket system is an admin dashboard web app that generates tickets for customers, the app also has a section to scan valid tickets on the day of the show, all other amazing features were done on the app"
+                "Converts your audio files to other formats in 3 seconds"
               }
             />
           </SplideSlide>
 
-          {/* SoundMac admin snip */}
+          {/* Landing page generator snip */}
           <SplideSlide>
             <Works
-              imgSnip={soundmacAdmin}
+              imgSnip={"https://sconchun.sirv.com/mobile%20(10).png"}
               worksIcon={gitIcon}
               worksBeIcon={beIcon}
-              availability={
-                "Git and Web Links are only available on request due to privacy "
+              worksWebIcon={webIcon}
+              worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
+              worksBeLink={"https://www.behance.net/gallery/147054179/SoundMac"}
+              worksWebLink={"https://www.soundmac.co/dashboard/sales-analytics"}
+              heading={"LANDING PAGE GENERATOR"}
+              // techStack={
+              //   "Full-stack: HTML, CSS, JS, React, AxiosInstance, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js, Express.js"
+              // }
+              description={
+                "Creates a landing page that holds all your music links"
               }
+            />
+          </SplideSlide>
+
+          {/* sales analytics */}
+          <SplideSlide>
+            <Works
+              imgSnip={"https://sconchun.sirv.com/mobile%20(13).png"}
+              worksIcon={gitIcon}
+              worksBeIcon={beIcon}
+              worksWebIcon={webIcon}
+              worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
+              worksBeLink={"https://www.behance.net/gallery/147054179/SoundMac"}
+              worksWebLink={"https://www.soundmac.co/dashboard/sales-analytics"}
+              heading={"MUSIC STREAM ANALYTICS"}
+              description={
+                "Analyses all your music based on popularity & countries with Spotify's API"
+              }
+            />
+          </SplideSlide>
+
+          {/* Audio player */}
+          <SplideSlide>
+            <Works
+              imgSnip={"https://sconchun.sirv.com/mobile%20(17).png"}
+              worksIcon={gitIcon}
+              worksBeIcon={beIcon}
               worksWebIcon={webIcon}
               worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
               worksBeLink={"https://www.behance.net/gallery/147054179/SoundMac"}
               worksWebLink={"#"}
-              heading={"SOUNDMAC ADMIN DASHBOARD (exclusive)"}
-              techStack={
-                "Full-stack: HTML, CSS, JS, React, Axios, Context Api, Loading Skeleton, MngoDB, Heroku, Node.Js, Express.js"
-              }
+              heading={"MULTI FUNCTIONAL AUDIO PLAYER"}
               description={
-                "I created an admin dashboard with a music player and song approval/rejection functionality. The dashboard enables admins to play and review songs submitted for approval, and provide reasons for their decisions. "
+                "Listen to songs, approves and constructs smart mails"
               }
             />
           </SplideSlide>
 
-          {/* SoundMac snip */}
+          {/* auth*/}
           <SplideSlide>
             <Works
-              imgSnip={soundmac}
+              imgSnip={"https://sconchun.sirv.com/mobile%20(14).png"}
               worksIcon={gitIcon}
-              availability={
-                "Git Links are only available on request due to privacy "
-              }
               worksBeIcon={beIcon}
               worksWebIcon={webIcon}
               worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
               worksBeLink={"https://www.behance.net/gallery/147054179/SoundMac"}
               worksWebLink={"https://www.soundmac.co/"}
-              heading={"SOUNDMAC"}
-              techStack={
-                "Full-stack: HTML, CSS, JS, React, AxiosInstance, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js, Express.js"
-              }
+              heading={"MODERN AUTH-SYSTEM"}
+              description={"Login & register system with email verifier"}
+            />
+          </SplideSlide>
+
+          {/* Upload songs and album */}
+          <SplideSlide>
+            <Works
+              imgSnip={"https://sconchun.sirv.com/mobile%20(15).png"}
+              worksIcon={gitIcon}
+              worksBeIcon={beIcon}
+              worksWebIcon={webIcon}
+              worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
+              worksBeLink={"https://www.behance.net/gallery/147054179/SoundMac"}
+              worksWebLink={"https://www.soundmac.co/upload/single"}
+              heading={"UPLOAD ALBUM & SINGLES"}
               description={
-                "I built a full-scale web app that allows users to log in and upload songs for distribution. The app includes four different account types, each with unique functionalities, and uses Paystack as the payment gateway. This project simplifies music distribution and provides a seamless experience for both musicians and consumers.."
+                "Converts, Upload music files & its details to soundmac's database"
               }
+            />
+          </SplideSlide>
+
+          {/* Handle accounts*/}
+          <SplideSlide>
+            <Works
+              imgSnip={"https://sconchun.sirv.com/mobile%20(16).png"}
+              worksIcon={gitIcon}
+              worksBeIcon={beIcon}
+              worksWebIcon={webIcon}
+              worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
+              worksBeLink={"https://www.behance.net/gallery/147054179/SoundMac"}
+              worksWebLink={"https://www.soundmac.co/dashboard"}
+              heading={"ACCOUNT DESIGNATOR"}
+              description={
+                "Uses a payment gateway (PAY-STACK) to designate account type"
+              }
+            />
+          </SplideSlide>
+
+          {/* eko hotels */}
+          <SplideSlide>
+            <Works
+              imgSnip={eko}
+              worksIcon={gitIcon}
+              worksBeIcon={beIcon}
+              worksWebIcon={webIcon}
+              worksGitLink={""}
+              worksWebLink={""}
+              heading={"Eko Hotels (private)"}
+              description={"QR Ticket code scanner & event's verifier"}
             />
           </SplideSlide>
 
@@ -313,10 +286,7 @@ function Main() {
               worksBeLink={"https://www.behance.net/tobbeyjayjay"}
               worksWebLink={"https://tobbeymovieapp-fl9l.vercel.app/"}
               heading={"TOBBEY MOVIE APP"}
-              techStack={"Tech Stack: HTML, CSS, JS, React, Axios, Api"}
-              description={
-                "A straightforward ReactJS movies app based on the OMDb API."
-              }
+              description={"Consumes OMDb API."}
             />
           </SplideSlide>
 
@@ -331,10 +301,7 @@ function Main() {
               worksBeLink={"https://www.behance.net/tobbeyjayjay"}
               worksWebLink={"https://image-story-app.vercel.app/"}
               heading={"IMAGE LOOKUP APP"}
-              techStack={"Tech Stack: HTML, CSS, JS, Axios, React, Api"}
-              description={
-                "A search engine for photographs and related images that you want"
-              }
+              description={"Search images using Unsplash API"}
             />
           </SplideSlide>
 
@@ -349,10 +316,7 @@ function Main() {
               worksBeLink={"https://www.behance.net/tobbeyjayjay"}
               worksWebLink={"https://sample-tobbeycc1.vercel.app/"}
               heading={"GREETINGS APP"}
-              techStack={"Tech Stack: React-TypeScript, HTML, CSS, JS"}
-              description={
-                "A simple React/Typescript that displays the selcted names of people to be greeted "
-              }
+              description={"The selcted names of people to be greeted"}
             />
           </SplideSlide>
 
@@ -368,11 +332,8 @@ function Main() {
                 "https://www.behance.net/gallery/147028053/TEX-Z-inc"
               }
               worksWebLink={"https://texzweb.vercel.app/"}
-              heading={"TEX-Z Inc"}
-              techStack={"Tech Stack: HTML, CSS, JS, React"}
-              description={
-                "A logistics app aimed at striking a balance between retailers of large sized goods and its respective customers in terms of the supposed goods movements."
-              }
+              heading={"JUST UI"}
+              description={"A landing page with beautiful UI"}
             />
           </SplideSlide>
 
@@ -387,9 +348,8 @@ function Main() {
               worksBeLink={"https://www.behance.net/tobbeyjayjay"}
               worksWebLink={"https://tobbey.netlify.app/"}
               heading={"Portfolio Website"}
-              techStack={"Tech Stack: HTML, CSS, DOM, Vanilla JS,"}
               description={
-                "A very captivating Single Page Application (React-like) Portfolio wbsite built with vanillas javascript"
+                "A very captivating Single Page Application Portfolio website built with vanillas javascript"
               }
             />
           </SplideSlide>
