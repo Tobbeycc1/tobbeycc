@@ -167,7 +167,9 @@ function Main() {
               worksWebIcon={webIcon}
               worksGitLink={"https://github.com/SOUNDMACMUSIC-ORG"}
               worksBeLink={"https://www.behance.net/gallery/147054179/SoundMac"}
-              worksWebLink={"https://www.soundmac.co/dashboard/sales-analytics"}
+              worksWebLink={
+                "https://firebasestorage.googleapis.com/v0/b/soundmac-0.appspot.com/o/chris%20brown.soundmac.html?alt=media&token=b2109244-4e00-4d9c-8f17-6bff9394d041"
+              }
               heading={"LANDING PAGE GENERATOR"}
               // techStack={
               //   "Full-stack: HTML, CSS, JS, React, AxiosInstance, Context Api, Loading Skeleton, MngoDB, Heroku, Fluterwave, Node.Js, Express.js"
